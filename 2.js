@@ -7,3 +7,6 @@ function fn2 () {
 function fn3 () {
     console.log(4)
 }
+function module3 () {
+    console.log('module3')
+}

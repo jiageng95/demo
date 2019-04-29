@@ -10,3 +10,6 @@ function fn3 () {
 function module3 () {
     console.log('module3')
 }
+function module4 () {
+    console.log('module4')
+}

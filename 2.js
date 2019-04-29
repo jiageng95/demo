@@ -4,3 +4,6 @@ function fn () {
 function fn2 () {
     console.log(3)
 }
+function fn3 () {
+    console.log(4)
+}

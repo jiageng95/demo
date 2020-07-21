@@ -4,6 +4,7 @@ const msg = require('fs')
 .readFileSync(msgPath, 'utf-8')
 .trim()
 chalk.enabled = true
+chalk.level = 1
 console.log(msgPath, msg)
 console.log(chalk.red(
     `  21Proper commit message format is required for automated changelog generation. Examples:\n\n`

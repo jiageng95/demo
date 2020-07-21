@@ -10,8 +10,8 @@ if (!commitRE.test(msg)) {
   console.log(`${chalk.bgRed.white(' ERROR ')} ${chalk.red(
     `invalid commit message format.`
   )}\n\n` + chalk.red(
-    `Please submit the correct message format.. Examples:\n\n`) +
+    `Please submit the correct message format. Examples:\n\n`) +
     `    ${chalk.green(`feat(compiler): add 'comments' option`)}\n` +
-    chalk.red(`  See .github/commit-convention.md for more details.\n`)
+    chalk.red(`See .github/commit-convention.md for more details.\n`)
   )
 }

@@ -8,6 +8,6 @@ const commitRE = /^(revert: )?(feat|fix|update|release|docs|dx|style|refactor|pe
 if (!commitRE.test(msg)) {
   console.log()
   console.log(`${chalk.bgRed.white(' ERROR ')} ${chalk.red(
-    `提交不规范, 亲人两行泪\n\n`
+    `提交不规范, 亲人两行泪!\n\n`
   )}`)
 }

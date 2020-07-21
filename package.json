@@ -1,6 +1,6 @@
 {
   "gitHooks": {
-    "commit-msg": "node main.js"
+    "pre-commit": "node main.js"
   },
   "devDependencies": {
     "chalk": "^4.1.0"

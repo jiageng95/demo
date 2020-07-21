@@ -3,6 +3,7 @@
     "pre-commit": "node main.js"
   },
   "devDependencies": {
-    "chalk": "^4.1.0"
+    "chalk": "^4.1.0",
+    "yorkie": "^2.0.0"
   }
 }

@@ -1,6 +1,9 @@
 const chalk = require('chalk')
 const msgPath = process.env.GIT_PARAMS
-console.log(msgPath)
+const msg = require('fs')
+  .readFileSync(msgPath, 'utf-8')
+  .trim()
+console.log(msgPath, msg)
 console.log(chalk.red(
     `  1Proper commit message format is required for automated changelog generation. Examples:\n\n`
 ))

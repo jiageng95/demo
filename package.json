@@ -1,0 +1,8 @@
+{
+  "gitHooks": {
+    "commit-msg": "node main.js"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.0"
+  }
+}
